@@ -5,8 +5,8 @@ from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboard
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 
 # ─── CONFIG ────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-OWNER_ID = int(os.environ.get("OWNER_ID", "0"))
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8933123668:AAG0oZzww9CwzyM45bcyyGMcQ2Zk4JteeRE")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8794321786"))
 DATA_FILE = "data.json"
 SITES_DIR = "sites"
 FORCE_SUB_FILE = "force_sub.json"
